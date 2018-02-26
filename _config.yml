@@ -5,7 +5,7 @@ description: 'A blog about Python, Docker and Tensorflow'
 baseurl: ""
 url: "https://dammi87.github.io"
 # google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+disqus_shortname: 'adamhart'
 
 author:
   name: 'Adam Hart'

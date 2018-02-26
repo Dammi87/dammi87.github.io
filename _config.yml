@@ -1,4 +1,5 @@
 # Site settings
+remote_theme: joshgerdes/jekyll-uno
 title: Jekyll-Uno
 description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
 url: 'http://joshgerdes.com/jekyll-uno'

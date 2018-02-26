@@ -2,8 +2,8 @@
 remote_theme: 'joshgerdes/jekyll-uno'
 title: Jekyll-Uno
 description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: '/jekyll-uno'
+baseurl: ""
+url: "https://dammi87.github.io"
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 

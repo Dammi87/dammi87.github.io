@@ -1,19 +1,19 @@
 # Site settings
 remote_theme: 'joshgerdes/jekyll-uno'
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
+title: Adam Hart
+description: 'A blog about Python, Docker and Tensorflow'
 baseurl: ""
 url: "https://dammi87.github.io"
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'Adam Hart'
+  email: adam.runars@gmail.com
+  twitter_username: dammi87
+  facebook_username: dammi87
+  github_username:  dammi87
+  linkedin_username:  adam-hart-rf
 
 defaults:
   -

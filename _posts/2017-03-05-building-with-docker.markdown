@@ -134,6 +134,5 @@ If you are using Sublime, simply go to Tools - Build System - New Build System a
 
 I'll update this part of the blog-post when I've finished the plugin.
 
-# Conclusion
 [bwd]: https://github.com/Dammi87/build-with-docker
 [portainer]: https://github.com/portainer/portainer

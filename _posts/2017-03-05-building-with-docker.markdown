@@ -46,8 +46,8 @@ Assume that you have created another script called my_webserver.py which will se
 
 Bob wants to run this image on his new changes, but he stores his text file at /bobbys_data instead of /data like you do, and he doesn't want to run it on port 8080 either. So he has to change the docker command accordingly `docker run -v /path/to/repo:/app -v /bobbys_data:/data -p 6060:8080 examples:1 python3 my_webserver.py`. This in itself is fine, but I wanted a more structured way of doing this, especially when working in a team, so I created _build_with_docker_.
 
-## Build-with-docker [bwd]
-Build with docker is a wrapper around your project, which will read user-specific build-commands, mount folders, open ports etc with a very simple command. The command would look the same for me and Bob, `bwd -s my_webserver.py`. And what's even better, you can setup a remote computer to which you have SSH access to and have your project built there instead, with almost the exact same command.
+## Build-with-docker 
+Build with docker __(bwd)__ is a wrapper around your project, which will read user-specific build-commands, mount folders, open ports etc with a very simple command. The command would look the same for me and Bob, `bwd -s my_webserver.py`. And what's even better, you can setup a remote computer to which you have SSH access to and have your project built there instead, with almost the exact same command.
 
 ### Prerequisites
 Detailed installation instructions are found on the project [Github page][bwd]

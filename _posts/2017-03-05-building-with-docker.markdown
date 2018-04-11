@@ -112,7 +112,7 @@ Mainly, it should have a folder that contains project related Dockerfiles and a 
 ### Running locally
 Run `bwd -s my_webserver.py` from the project root, and it will automatically create the necessary command. It looks at the username that is running the command, searches for it in the build config and runs. It is possible to define multiple build commands, and choosing between them by explicitly specifying which build to use `bwd -s my_webserver.py -build_name another_build`, if none is specified, it defaults to the first one.
 
-As ab added bonus, it is possible to run the progam on a remote host. If you followed the instruction regarding SSH on the [GitHub][bwd] page you can try this as well. In this example the "remote-host" is simply your own computer for demo purposes.
+As an added bonus, it is possible to run the progam on a remote host. If you followed the instruction regarding SSH on the [GitHub][bwd] page you can try this as well. In this example the "remote-host" is simply your own computer for demo purposes.
 
 ### Running on a remote
 When working with a team in a deep learning project, sharing GPUs on the same machine can often be quite difficult. Using nvidia-docker it's quite easy to "hide" other GPUs from the container, making them seperate from one-another. At one point I even had 4 different training sessions on a computer containing 4 GPUs without much difficulty, all in a seperate container.
